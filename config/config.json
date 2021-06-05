@@ -1,0 +1,9 @@
+{
+  "blockchain": {"host": "localhost", "port": 8332, "user": "user", "password": "hpe74xjkd"},
+  "database": {"host": "localhost", "port": 3306, "user": "root", "password": "root",
+    "database": "worm"
+  },
+  "test": {
+    "url": "http://wf.zxc/test-data.php"
+  }
+}
