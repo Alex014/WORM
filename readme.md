@@ -49,7 +49,7 @@ This is a backend part of a search system - a Data Collector
                 {FRONTEND}    
 ```
 ## WORM language
-```
+```xml
 <worm>
     <!-- Products -->
     <marketplace name="Marketplace 1" descr="[DESCRIPTION]" lang="en" country="" url="[URL]" img="[IMAGE-URL]">
@@ -106,7 +106,7 @@ Emercoin wallet at https://emercoin.com
 MySQL database
 ### Configuration
 The configuration is available in two formats: .ini and .json, and by default is located in `confid/config.json` directory of Data Collector
-```
+```json
 {
   "blockchain": {"host": "localhost", "port": 8332, "user": "user", "password": "hpe74xjkd"},
   "database": {"host": "localhost", "port": 3306, "user": "root", "password": "root",
