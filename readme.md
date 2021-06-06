@@ -99,9 +99,9 @@ There are two kinds of records
 Currently the Data Collector supports two protocols [HTTP] and [HTTPS].
 ## Installation
 ### Dependencies
-`pip install pycurl`
-`pip install requests`
-`pip install warnings`
+* `pip install pycurl`
+* `pip install requests`
+* `pip install warnings`
 Emercoin wallet at https://emercoin.com
 MySQL database
 ### Configuration
