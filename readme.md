@@ -102,7 +102,7 @@ Currently the Data Collector supports two protocols [HTTP] and [HTTPS].
 * `pip install pycurl`
 * `pip install requests`
 * `pip install warnings`
-Emercoin wallet at https://emercoin.com
+* Emercoin wallet at https://emercoin.com
 MySQL database
 ### Configuration
 The configuration is available in two formats: .ini and .json, and by default is located in `confid/config.json` directory of Data Collector
