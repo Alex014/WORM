@@ -85,9 +85,30 @@ This is a backend part of a search system - a Data Collector
         <service title="Repair 123" descr="[DESCRIPTION]" url="[URL]" img="[IMAGE-URL]" tags="tag1,tag2,tag3"/>
     </workshop>
     <!-- Source code -->
-    <hub name="Super Source Hub" descr="[DESCRIPTION]" url="[URL]" img="[IMAGE-URL]">
+    <hub type="source-code" name="Super Source Hub" descr="[DESCRIPTION]" url="[URL]" img="[IMAGE-URL]">
         <repository title="Title" descr="[DESCRIPTION]" url="[URL]" img="[IMAGE-URL]" author="First Last Name or nickname" lang="c++" tags="tag1,tag2,tag3"/>
     </hub>
+    <!-- Users and public keys -->
+  	<user type=”ness” key=”934785939843” nonce=”sd8fgh8e”>
+		<keys>
+			<key hash=”934785939843”>hf984h7*^%((GHF(F8wfj</key>
+			<key hash=”546756757545”>hf9846786786788648wfj</key>
+			<key hash=”898843876752”>dsfgd^*%&^&^^&*%^&*^&</key>
+		</keys>
+		<!-- Here tags may be different for each type of user -->
+	</user>
+    <!-- Network servers and nodes -->
+  	<hub type=”ness” name=”xen” tags=”video,streaming”>
+		<node type=”ness” url=”127.0.0.1” nonce=”56y54y6” tags=”video,streaming”>
+		<!-- Here tags may be different for each type of node or each node -->
+		</node>
+		<node type=”ness” url=”127.0.0.2” nonce=”r67ut7t” tags=”video,streaming”>
+		<!-- Here tags may be different for each type of node or each node -->
+		</node>
+		<node type=”ness” url=”127.0.0.3” nonce=”k77kyu” tags=”video,streaming”>
+		<!-- Here tags may be different for each type of node or each node -->
+		</node>
+	</hub>
 </worm>
 ```
 Only `<marketplace>` tag is implemented
