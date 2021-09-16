@@ -51,6 +51,10 @@ This is a backend part of a search system - a Data Collector
 ## WORM language
 ```xml
 <worm>
+    <!-- link to another WORM file (not implemented yet) -->
+    <link url="[URL]"/>
+    <!-- link to JSON file with array of links to WORM file (not implemented yet) -->
+    <collection url="[URL]"/>
     <!-- Products -->
     <marketplace name="Marketplace 1" descr="[DESCRIPTION]" lang="en" country="" url="[URL]" img="[IMAGE-URL]">
         <product name="Product 1" price="466.15" descr="[DESCRIPTION]" url="[URL]" img="[IMAGE-URL]" tags="tag3,Subtag333,SSR"/>
